@@ -19,9 +19,9 @@ pipeline_tag: text-generation
 
 # Qwen3.6-35B-A3B-CyberFusion
 
-![Qwen3.6-35B-A3B CyberFusion banner](assets/cyberfusion-banner.png)
+![Qwen3.6-35B-A3B CyberFusion banner](https://raw.githubusercontent.com/KernelLord/Qwen3.6-35B-A3B-CyberFusion/main/assets/cyberfusion-banner.png)
 
-![CyberFusion emblem](assets/cyberfusion-emblem.png)
+![CyberFusion emblem](https://raw.githubusercontent.com/KernelLord/Qwen3.6-35B-A3B-CyberFusion/main/assets/cyberfusion-emblem.png)
 
 ## Intelligence for the frontier between code and security
 
