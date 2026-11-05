@@ -15,11 +15,11 @@ tags:
 pipeline_tag: text-generation
 ---
 
-# Luna-Qwen3.6-35B-A3B-CyberFusion
+# Qwen3.6-35B-A3B-CyberFusion
 
 ![CyberFusion emblem](assets/cyberfusion-emblem.png)
 
-**Luna-Qwen3.6-35B-A3B-CyberFusion** is an equal-weight SLERP merge of three Qwen3.6-35B-A3B fine-tunes, released in **bfloat16** Hugging Face Transformers layout. The merge combines general, reasoning-distilled, and cybersecurity/offensive-security-oriented behaviors.
+**Qwen3.6-35B-A3B-CyberFusion** is an equal-weight SLERP merge of three Qwen3.6-35B-A3B fine-tunes, released in **bfloat16** Hugging Face Transformers layout. The merge combines general, reasoning-distilled, and cybersecurity/offensive-security-oriented behaviors.
 
 > **Status:** merged model release package. Please consult the model files and the release notes for the exact revision and checksums.
 
@@ -80,12 +80,12 @@ The exact runtime requirements depend on the final model configuration, Transfor
 
 ## Repository layout
 
-- `README.md` — model card and usage guide.
-- `merge_recipe.json` — machine-readable composition and provenance.
-- `assets/cyberfusion-emblem.png` — project branding image.
-- `docs/RELEASE_CHECKLIST.md` — checklist for publishing weights and validating the release.
-- `docs/EVALUATION.md` — suggested evaluation template.
-- `CITATION.cff` — citation metadata.
+- `README.md` - model card and usage guide.
+- `merge_recipe.json` - machine-readable composition and provenance.
+- `assets/cyberfusion-emblem.png` - project branding image.
+- `docs/RELEASE_CHECKLIST.md` - checklist for publishing weights and validating the release.
+- `docs/EVALUATION.md` - suggested evaluation template.
+- `CITATION.cff` - citation metadata.
 
 ## License and attribution
 
@@ -95,7 +95,7 @@ The upstream licenses and usage conditions apply. Before distributing weights, v
 
 ```bibtex
 @misc{cyberfusion_qwen36_35b_a3b,
-  title        = {Luna-Qwen3.6-35B-A3B-CyberFusion},
+  title        = {Qwen3.6-35B-A3B-CyberFusion},
   author       = {KernelLord},
   year         = {2026},
   howpublished = {Hugging Face model repository},
