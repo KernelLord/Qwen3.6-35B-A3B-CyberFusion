@@ -19,6 +19,8 @@ pipeline_tag: text-generation
 
 # Qwen3.6-35B-A3B-CyberFusion
 
+![Qwen3.6-35B-A3B CyberFusion banner](assets/cyberfusion-banner.png)
+
 ![CyberFusion emblem](assets/cyberfusion-emblem.png)
 
 ## Intelligence for the frontier between code and security
@@ -141,7 +143,8 @@ No performance claims are made here until reproducible evaluations are published
 
 - `README.md` - this model card and usage guide
 - `merge_recipe.json` - machine-readable merge provenance
-- `assets/cyberfusion-emblem.png` - project branding image
+- `assets/cyberfusion-banner.png` - primary project banner
+- `assets/cyberfusion-emblem.png` - project emblem
 - `docs/RELEASE_CHECKLIST.md` - release validation checklist
 - `docs/EVALUATION.md` - evaluation template
 - `CITATION.cff` - citation metadata
