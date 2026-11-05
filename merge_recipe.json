@@ -1,0 +1,36 @@
+{
+  "name": "Luna-Qwen3.6-35B-A3B-CyberFusion",
+  "method": "sequential_slerp",
+  "precision": "bfloat16",
+  "quantized": false,
+  "layout": "Hugging Face Transformers",
+  "stages": [
+    {
+      "id": "step1",
+      "a": "Jackrong/Qwopus3.6-35B-A3B-v1",
+      "b": "lordx64/Qwen3.6-35B-A3B-Kimi-K2.6-Reasoning-Distilled",
+      "t": "1/2"
+    },
+    {
+      "id": "final",
+      "a": "step1",
+      "b": "oyildirim/CyberStrike-OffSec-35B",
+      "t": "1/3"
+    }
+  ],
+  "component_sources": {
+    "mtp_head": "Qwopus/Kimi side; CyberStrike has no MTP tensors",
+    "config": "Jackrong/Qwopus3.6-35B-A3B-v1",
+    "tokenizer": "Jackrong/Qwopus3.6-35B-A3B-v1",
+    "chat_template": "Jackrong/Qwopus3.6-35B-A3B-v1"
+  },
+  "excluded_for_now": {
+    "model": "jedisct1/Qwen3.6-35B-rust-v2-bf16.mlx",
+    "future_command": "merge_models.py --b-format mlx --t 0.25",
+    "reason": "reserved for a later equal four-way merge"
+  },
+  "tooling": {
+    "script": "merge_models.py",
+    "workspace": "C:\\Users\\lasha\\qwen-merge"
+  }
+}

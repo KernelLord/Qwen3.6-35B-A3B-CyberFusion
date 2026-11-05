@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Luna-Qwen3.6-35B-A3B-CyberFusion"
+type: software
+abstract: "Equal-weight sequential SLERP merge of three Qwen3.6-35B-A3B fine-tunes in bf16 Hugging Face layout."
+authors:
+  - family-names: KernelLord
+    given-names: ""
+year: 2026
+version: "1.0.0"
+license: "Other"
+keywords:
+  - Qwen
+  - model merge
+  - SLERP
+  - bfloat16
+  - cybersecurity
+  - reasoning
