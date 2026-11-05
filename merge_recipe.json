@@ -1,5 +1,5 @@
 {
-  "name": "Luna-Qwen3.6-35B-A3B-CyberFusion",
+  "name": "Qwen3.6-35B-A3B-CyberFusion",
   "method": "sequential_slerp",
   "precision": "bfloat16",
   "quantized": false,

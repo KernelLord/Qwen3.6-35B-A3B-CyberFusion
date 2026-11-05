@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: "Luna-Qwen3.6-35B-A3B-CyberFusion"
+title: "Qwen3.6-35B-A3B-CyberFusion"
 type: software
 abstract: "Equal-weight sequential SLERP merge of three Qwen3.6-35B-A3B fine-tunes in bf16 Hugging Face layout."
 authors:
